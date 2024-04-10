@@ -1,0 +1,48 @@
+@font-face {
+    font-family: ftn1;
+    src: url("../imagens/Figtree-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: ftn2;
+    src: url("../imagens/Figtree-VariableFont_wght.ttf");
+}
+
+body{
+    background-color: rgba(253, 203, 5, 0.668);
+    padding: 100px;
+}
+
+.container{
+    background-color: white;
+    width: 380px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 8px 8px 0 black;
+}
+
+.container img{
+    border-radius: 10px;
+}
+
+.container .informacoes h2{
+    background-color: rgba(253, 203, 5, 0.668);
+    width: 90px;
+    padding: 5px;
+    margin: 20px 0 0 0;
+    font-family: ftn2;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container .informacoes p{
+   margin-top: 10px;
+   font-family: ftn2;
+}
+
+.container .informacoes h1{
+    font-family: ftn2;
+    padding: 10px 0;
+}
+
